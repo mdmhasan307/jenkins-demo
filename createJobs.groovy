@@ -6,7 +6,7 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('theme-park-job-docker') {
     definition {
         cpsScm{
             scm{
@@ -15,6 +15,7 @@ pipelineJob('theme-park-job') {
                         url 'https://github.com/mdmhasan307/spring-boot-api-example.git'
                     }
                     branch 'master'
+                    scriptPath 'Jenkinsfile-docker'
                 }
             }
 
