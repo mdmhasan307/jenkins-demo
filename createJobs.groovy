@@ -15,7 +15,7 @@ pipelineJob('theme-park-job-docker') {
                         url 'https://github.com/mdmhasan307/spring-boot-api-example.git'
                     }
                     branch 'master'
-                    scriptPath 'Jenkinsfile'
+                    scriptPath 'Jenkinsfile-docker'
                 }
             }
 
